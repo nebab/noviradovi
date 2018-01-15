@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.code.myapplication.SabiracActivity">
+
+
+    <EditText
+        android:id="@+id/prvi_sabirak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        tools:text="prvisabirak"
+        android:textSize="18sp"
+        android:inputType="number"
+        android:hint="unesi_prvi_broj"/>
+
+    <EditText
+        android:id="@+id/drugi_sabirak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        tools:text="drugisabirak"
+        android:textSize="18sp"
+        android:inputType="number"
+        android:hint="unesi_drugi_broj"/>
+
+    <Button
+        android:id="@+id/Saberi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/prvo_dgume"
+
+         />
+
+</LinearLayout>
